@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Mavanimes",
+  "version": "1.0",
+
+  "description": "Adds a components to mavanimes website",
+
+  "icons": {
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://www.mavanimes.co/*"],
+      "js": ["mavanimes.js"],
+      "css": ["mavanimes.css"]
+    }
+  ]
+
+}
